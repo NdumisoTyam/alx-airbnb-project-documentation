@@ -1,21 +1,5 @@
-usecaseDiagram
-    actor Guest
-    actor Host
-    actor System
+## Use Case Diagram
 
-    Guest --> (Register)
-    Host --> (Register)
+The use case diagram visualizes the interactions between key actors (Guests, Hosts, and System) and the main functionalities such as user registration, property booking, and payment processing.
 
-    Guest --> (Browse Properties)
-    Host --> (List Property)
-
-    Guest --> (Book Property)
-    Guest --> (Make Payment)
-
-    System --> (Process Payment)
-    System --> (Confirm Booking)
-
-    Guest --> (Write Review)
-    Guest --> (Manage Bookings)
-    Host --> (Manage Listings)
-    Host --> (Manage Bookings)
+![Use Case Diagram](use-case-diagram/use-case-diagramdrawio.png)
